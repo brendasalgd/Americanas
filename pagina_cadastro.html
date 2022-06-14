@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lojas Americanas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+
+
+</head>
+
+<body>
+  <section id="cabecalho">
+    <!-- logo Superior Americanas -->
+    <img src="logo_Americanas.PNG" alt="Logo Americanas" />
+
+
+    <div id="texto_topo">
+      <h1>criar seu cadastro</h1>
+      <h2> veja seus pedidos de forma fácil, compre mais rápido e tenha uma
+        experiência personalizada :)</h2>
+
+
+      <div id="campos">
+        <p> <span class="">*</span>campos obrigatorios</p>
+      </div>
+    </div>
+  </section>
+  <section id="formulario">
+    <!-- Início Formulário -->
+    <form action="https://www.americanas.com.br" method="post">
+      <br /><br />
+
+      <div class="" id=""> <label><span class="">*</span>nome completo</label> <br />
+        <input  type="text" name="nome" id="nome" />
+      </div>
+      <br /><br />
+
+      <div class="" id="genero_session">
+        <label><span class="">*</span>gênero</label> <br />
+        <p id="sub_texto"> pra gente te conhecer um pouquinho melhor :)</p>
+        <div class="" id="insidegenero">
+          <input type="radio" name="opcao" id="opcao" />feminino
+          <input type="radio" name="opcao" id="opcao" />masculino
+          <input type="radio" name="opcao" id="opcao" />não informar
+        </div> <br /><br /><br />
+      </div>
+
+      <div class="" id="data_session"> <label><span class="">*</span>data de nascimento </label> <br />
+        <p id="sub_texto"> necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+        <br />
+        <input  type="date" name="data" id="date" />
+      </div> <br /><br /><br />
+
+      <div class="" id="cpf_session"> <label><span class="">*</span>CPF</label> <br />
+        <p id="sub_texto"> necessário pra emissão das Notas Fiscais </p><br />
+        <input placeholder="___.___.___-__ "type="text" name="cpf" id="cpf" /><br />
+        <u> é pessoa jurídica? conheça a americanas empresas </u>
+      </div>
+
+      <br /><br />
+
+      <div class="" id="telefone-section"> <label><span class="">*</span>telefone</label> <br />
+        <p  id="sub_texto" > caso a gente precise entrar em contato sobre seus pedidos </p><br />
+        <input placeholder="(__)_____-____"type="tel" name="telefone" id="tel" /><br />
+        <input type="checkbox" name="recebe_whats" id="check" /> receber notificações
+        por whatsapp
+      </div>
+      <br /><br /><br />
+
+      <div class="" id="email-section">
+        <label><span class="">*</span>e-mail</label><br />
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+
+      <div class="" id="check_email">
+        <input type="checkbox" name="emailpromo" id="check-btn-email" />
+        receber e-mails promocionais
+      </div>
+      <br /><br />
+
+      <div class="" id="senha-section">
+        <label><span class="">*</span>senha</label><br />
+        <p id="sub_texto" > precisa ter entre 6 e 20 caracteres </p><br />
+        <input type="password" name="senha" id="senha" />
+      </div>
+      <br />
+
+      <div class="" id="check_dados">
+        <input type="checkbox" />
+        <label id="dados_checkbox">
+          compartilhar meus dados com parceiros para ter conteúdos
+            personalizados, veja como funciona.
+        </label>
+      </div>
+      <br /><br />
+
+      <div class="" id="botao">
+        <input type="submit" value="criar seu cadastro" id="btn" />
+      </div>
+      <br /><br />
+    </form>
+    
+  </section>
+  <!-- Fim Formulário -->
+
+  <div class="" id="fim_pagina">
+<div class="" id="politica">    Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda
+ com a nossa 
+
+ <a href="politicas_privacidade.html">Política de Privacidade</a>
+</div>
+
+  já tem cadastro? 
+ <a href="user_login.html">entrar</a>
+</div>
+
+</body>
+
+</html>

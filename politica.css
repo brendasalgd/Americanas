@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    border: 0;
+    font: arial;
+    background-color:  #F1F1F1;
+    color: #666666;
+}
+
+p{
+font-size: 14px;
+}
+.container{
+    padding: 10px
+}

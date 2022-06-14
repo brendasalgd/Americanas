@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+  }
+
+  section {
+    margin: 0;
+    padding: 0;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  img {
+    width: 100%;
+    height: 85px;
+  }
+
+  /**textos**********************************/
+  span {
+    color: #FC0D1B;
+    margin-right: 2px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666666;
+    margin: 0;
+  }
+
+  h2 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  p {
+    color: #999;
+  }
+
+a{
+  color: #666666;
+  font-weight: bold;
+}
+
+  #texto_topo {
+    font-size: 18px;
+    width: 550px;
+    margin: 0;
+    padding: 76px 0px 0px 26px;
+    color: #666666
+  }
+
+  #campos {
+    font-size: 12px;
+  }
+
+
+  #cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+  }
+
+  #sub_texto {
+    margin: 0px;
+    font-size: 14px;
+    width: 410px;
+    margin-top: 5px;
+  }
+
+  /*inputs**************************************/
+
+  #formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nome {
+    width: 100%;
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+    margin-top: 5px;
+  }
+
+  #genero_session {
+    margin-bottom: -30px;
+  }
+
+  #insidegenero {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  #opcao {
+    cursor: pointer;
+    width: 20px;
+
+  }
+
+  #date {
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+    margin-top: -9px;
+    
+  }
+
+  #cpf{
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+    margin-top: -9px;     
+    margin-bottom: 15px;
+    width: 100px;
+  }
+  #cpf_session{
+    margin-top:-30px;
+  }
+  #tel{
+width: 100px;
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+#check{
+cursor: pointer;
+}
+ 
+#email{
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+margin-top:5px;
+margin-bottom:10px;
+}
+#email-section{
+    margin-top: -30px;
+}
+#check-btn-email{
+    cursor:pointer;
+}
+#check_email{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    padding: 10;
+}
+#senha-section{
+    margin-top: -15px;
+}
+#senha{
+    border-radius: 7px;
+    cursor: text;
+    height: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 15px 15px;
+margin-top: -10px;
+}
+ #check_dados{
+    display: flex;
+    align-items: center;
+ }
+ #dados_checkbox{
+     padding: 10px
+ }
+ #btn{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(248, 0, 50);
+    border: 1px solid rgb(248, 0, 50);
+    border-radius: 3px;
+    width: 234px;
+    height: 48px;
+    margin-top: -7px;
+    margin-bottom: 16px;
+    margin-left: 83px;
+    font-size: 100%;
+    cursor: pointer;
+}
+ #btn:hover{
+     background-color:#EB3343
+ }
+ /*final*********************************/
+ #fim_pagina{
+  width: 498px;
+  margin: auto;
+  text-align: center;
+
+ }
+ #politica{
+   margin-bottom: 40px;
+ }
